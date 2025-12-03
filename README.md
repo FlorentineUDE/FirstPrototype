@@ -15,7 +15,7 @@ Diese Anleitung beschreibt, wie die Firmware auf den ESP32 geladen wird, wie die
 
 - Stromversorgung für den ESP32
 
-- Laptop mit Python 3
+- Laptop mit Python
 
 - Zugang zum HCI-Router WLAN
 
@@ -55,7 +55,7 @@ Stelle sicher, dass die Firewall UDP-Pakete zulässt.
 
 - Simulation starten:
 
-   - python3 send_start.py
+   - python sendToPrototype.py
 
 
 Der Laptop sendet nun eine START-Nachricht an den ESP32.
